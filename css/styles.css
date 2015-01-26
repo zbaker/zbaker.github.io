@@ -1,6 +1,7 @@
 /* GLOBAL */
 body{
 	font-family: Tahoma,Verdana,Segoe,sans-serif; 
+	line-height: 2em;
 }
 
 
@@ -16,14 +17,29 @@ h1 {
 }
 
 /* BIO PAGE */
-.bio h2, .bio h3 {
+.bio h2, 
+.bio h3 {
 	font-family: Arial Narrow,Arial,sans-serif; 
+	text-align: left;
 }
 
 .bio h1{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
+.bio article{
+	background: teal;
+	margin: 0 auto 0 auto;
+	width: 1000px;
+}
+
+.bio section {
+	float: left;
+	width: 500px;
+
+}
+
 
 
 /* STYLE TILE */
