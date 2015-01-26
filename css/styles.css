@@ -1,4 +1,7 @@
 /* GLOBAL */
+body{
+	font-family: Tahoma,Verdana,Segoe,sans-serif; 
+}
 
 
 /* HOME PAGE */
@@ -13,6 +16,14 @@ h1 {
 }
 
 /* BIO PAGE */
+.bio h2, .bio h3 {
+	font-family: Arial Narrow,Arial,sans-serif; 
+}
+
+.bio h1{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
 
 
 /* STYLE TILE */
