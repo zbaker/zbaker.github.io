@@ -1,7 +1,28 @@
 /* GLOBAL */
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
 body{
 	font-family: Tahoma,Verdana,Segoe,sans-serif; 
 	line-height: 2em;
+}
+
+/* NAV */
+nav a:link,
+nav a:visited {
+  color: #3e606f;
+  text-decoration: none;
+}
+
+
+nav a:focus {
+  border: 2px solid red;
+}
+
+nav a:hover,
+nav a:active {
+  background: #91aa9d;
 }
 
 
