@@ -61,6 +61,35 @@ h1 {
 
 }
 
+.bio article {
+	background: red;
+	margin: 0 auto 0 auto;
+	width: 1000px;
+}
 
+header {
+	width: 100%;
+}
+
+.bio-content,
+.resume-contnt {
+	float: left;
+}
+
+.bio-content{
+	width: 300px;
+}
+
+.resume-content {
+	width: 700px;
+}
+
+.clearfix {
+	float: none;
+}
+
+footer {
+	float: left;
+}
 
 /* STYLE TILE */
