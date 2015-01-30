@@ -15,9 +15,10 @@ body{
 /* NAV */
 nav a:link,
 nav a:visited {
-  color: #ACF0F2;
+  color: #F3FFE2;
   font-weight: bold;
   text-decoration: none;
+  padding: 5px;
   margin-right: 25px;
 }
 
@@ -44,8 +45,8 @@ nav a:active {
 }
 
 /* BIO PAGE */
-.bio a:link,
-.bio a:visited {
+.bio div a:link,
+.bio div a:visited {
   color: #ACF0F2;
   text-decoration: none;
 }
@@ -75,7 +76,7 @@ nav a:active {
 	background: #225378;
 	width: 100%;
 	margin-top: -10px;
-	color: #ACF0F2;
+	color: #F3FFE2;
 	padding: 25px 0px 0px 25px;
 
 }
