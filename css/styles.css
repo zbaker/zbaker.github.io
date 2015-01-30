@@ -14,18 +14,18 @@ body{
 /* NAV */
 nav a:link,
 nav a:visited {
-  color: #3e606f;
+  color: #3B7F00;
   text-decoration: none;
 }
 
 
 nav a:focus {
-  border: 2px solid red;
+  border: 2px #F3FFE2;
 }
 
 nav a:hover,
 nav a:active {
-  background: #91aa9d;
+  background: #ACF0F2;
 }
 
 
