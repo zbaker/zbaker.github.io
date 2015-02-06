@@ -101,14 +101,27 @@ footer {
 }
 
 /* STYLE TILE */
-/* Layout for Style Tile
-Feel free to change */
+/* Layout for Style Tile*/
 .style-tile,
 .style-tile p{
-	background-color: #FFF;
+	background-color: #ACF0F2;
 }
 section {
 	margin: 20px 0;
+}
+
+.style-tile h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.style-tile h2, h3, p {
+	font-family: 'Roboto Slab', sans-serif;
+	line-height: 2em;
+}
+
+.style-tile a{
+	text-decoration: none;
+	color: #EB7F00;
 }
  
 .color-1,
@@ -128,15 +141,17 @@ section {
 }
  
 .color-1 {
-	background: red;
+	background: #225378;
 }
+
 .color-2 {
-	background: white;
+	background: #1695A3;
 }
 
 .color-3 {
-	background: blue;
+	background: #F3FFE2;
 }
+
 /* Set Your Own Typography */
  h2, h3, p{
  	margin: 0;
@@ -147,5 +162,5 @@ h2, h3, p {
 	margin: 0;
 }
  
-/* Clearfix - Oo Not Remove */
+/* Clearfix - Do Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
