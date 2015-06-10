@@ -2,7 +2,80 @@
 YOUR STYLES
 *******************/
 
+html{
+	background: url(../img/oceanbg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section, p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: white;
+}
+
+p, h3 {
+	padding: 10px 20px;
+}
+
+.Name {
+	color: #4B1A31;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+section {
+	background: rgba(4,33,47,.5);
+	border-radius: 5px;
+}
+
+.mug {
+	border-radius: 5px;
+}
+
 /* Nav Bar */
+
+nav {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav li{
+	display: inline;	
+}
+
+nav a:link,
+nav a:visited {
+  color: #4B1A31;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 25px;
+}
+
+
+nav a:focus {
+  border: 2px #277289;
+}
+
+nav a:hover,
+nav a:active {
+  color: #277289;
+}
+
+/* Home Style */
+
+
+/* Resume Style */
+
+/* Portfolio Style */
+.hide {
+	opacity: 0;
+    transition: opacity .25s;
+    position: absolute;
+}
+
+/* Contact Style */
 
 
 
@@ -12,16 +85,23 @@ MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 769px) {
+
+
 
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+
 
 }
 
 /* Mobile */
-@media (min-width: 480px) {
+@media (max-width: 480px) {
+
+.Name {
+    text-align: center;
+}
 
 }

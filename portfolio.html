@@ -9,49 +9,40 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/gallery.theme.css">
-	<link rel="stylesheet" href="css/gallery.min.css">
+	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
-<body>
-	<h1>Portfolio</h1>
+<body class="grid-container">
+	<h1 class="Name grid-12">Portfolio</h1>
 
-	<nav>
+	<nav class="grid-12">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="bio.html">Bio</a></li>
-		    <li><a href="style-tile.html">Style Tile</a></li>
-		    <li><a href="portfolio.html">Portfolio</a></li>
+		    <li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 
-
-	<div class="gallery items-3">
-	  <div id="item-1" class="control-operator"></div>
-	  <div id="item-2" class="control-operator"></div>
-	  <div id="item-3" class="control-operator"></div>
-
-	  <figure class="item">
-	    <img class="thumb" src="img/PortalTracing.jpg">
-	  </figure>
-
-	  <figure class="item">
-	    <img class="thumb" src="img/Baker_216_pro2.jpg">
-	  </figure>
-
-	  <figure class="item">
-	    <h1><img class="thumb2" src="img/Baker_216_pro3-page-0.jpg"></h1>
-	  </figure>
-
-	  <div class="controls">
-	    <a href="#item-1" class="control-button">•</a>
-	    <a href="#item-2" class="control-button">•</a>
-	    <a href="#item-3" class="control-button">•</a>
-	  </div>
+	<div>
+		<p class="filter">Filter: 
+		<button id="all">All</button> |
+		<button id="ai">Illustrator</button>
+		<button id="ps">Photoshop</button>
+		</p>
 	</div>
 
+	<div>
+	    <img class="illustrator grid-4" src="img/PortalTracing.jpg">
 
-	<div id="clearfix"> </div>
+	    <img class="photoshop grid-4" src="img/Baker_216_pro2.jpg">
+
+	    <img class="illustrator grid-4" src="img/Baker_216_pro3-page-0.jpg">
+	</div>
+
+	<!-- Scripts -->
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  	<script type="text/javascript" src="js/scripts.js"></script>
+
 </body>
 </html>
