@@ -1,10 +1,6 @@
 // My Scripts
 
-$('.all').click(function() {
-	console.log("Click");
-});
 
-/*
 // Click Photography
 $('.ps').click( function() {
   
@@ -34,4 +30,4 @@ $('.all').click( function() {
   };
   
 });
-*/
+
