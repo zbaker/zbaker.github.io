@@ -79,6 +79,16 @@ nav a:active {
 	color: black;
 }
 
+
+.gallery {
+	background: rgba(4,33,47,.5);
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.gallery img{
+	margin: 5px;
+}
 /* Contact Style */
 
 
@@ -106,6 +116,10 @@ MEDIA QUERIES
 
 .Name {
     text-align: center;
+}
+
+.gallery {
+	padding: 5px 15px 5px 5px;
 }
 
 }
