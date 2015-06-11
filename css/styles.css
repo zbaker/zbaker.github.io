@@ -84,11 +84,10 @@ nav a:active {
 	background: rgba(4,33,47,.5);
 	border-radius: 5px;
 	margin: 5px;
+	padding: 10px 5px 10px 30px;
 }
 
-.gallery img{
-	margin: 5px;
-}
+
 /* Contact Style */
 
 
@@ -107,7 +106,10 @@ MEDIA QUERIES
 
 /* Tablet */
 @media (max-width: 768px) {
-
+.gallery img{
+	margin: 0px;
+	text-align: center;
+}
 
 }
 
@@ -118,8 +120,13 @@ MEDIA QUERIES
     text-align: center;
 }
 
+nav {
+	text-align: center;
+}
+
 .gallery {
-	padding: 5px 15px 5px 5px;
+	padding: 5px;
+	text-align: center;
 }
 
 }
